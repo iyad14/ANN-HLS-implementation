@@ -1,0 +1,14 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../main.cpp in debug mode
+csim.mk:73: recipe for target 'obj/main.o' failed
+../../../../main.cpp:4:1: error: expected initializer before 'using'
+ using namespace std;
+ ^~~~~
+../../../../main.cpp: In function 'int main()':
+../../../../main.cpp:12:31: error: 'Forward_propagation' was not declared in this scope
+  int i = Forward_propagation(X);
+                               ^
+make: *** [obj/main.o] Error 1
+ERR: [SIM 100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 3] *************** CSIM finish ***************

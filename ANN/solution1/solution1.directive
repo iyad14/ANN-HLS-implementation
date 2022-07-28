@@ -1,0 +1,28 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="Forward_propagation" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="Forward_propagation"/>
+            </pragma>
+        </directive>
+        <directive functionName="Forward_propagation" label="" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="Forward_propagation" label="X_Normalization" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="Forward_propagation" label="first_layer" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="Forward_propagation" label="second_layer" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="Forward_propagation" label="third_layer" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="Forward_propagation" label="output_layer" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+

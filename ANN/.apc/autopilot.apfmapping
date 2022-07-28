@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="Forward_propagation.cpp" path="C:\Users\iyadb\Desktop\ANN_HLS\Forward_propagation.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="main.cpp" path="C:\Users\iyadb\Desktop\ANN_HLS\main.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="ANN" solutionName="solution1" date="2022-07-25T15:28:59.395+0200"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="ANN" solutionName="solution1" date="2022-07-25T15:08:08.604+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-880] The II Violation in module 'Forward_propagation' (function 'Forward_propagation'): Unable to enforce a carried dependence constraint (II = 8, distance = 1, offset = 1) between bus read operation ('X_normalized.V', Forward_propagation.cpp:25) on port 'gmem' (Forward_propagation.cpp:25) and bus read operation ('X_normalized.V', Forward_propagation.cpp:25) on port 'gmem' (Forward_propagation.cpp:25).&#xD;&#xA;Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=200-880.html" projectName="ANN" solutionName="solution1" date="2022-07-25T15:07:47.965+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-880] The II Violation in module 'Forward_propagation' (function 'Forward_propagation'): Unable to enforce a carried dependence constraint (II = 7, distance = 1, offset = 1) between bus read operation ('X_normalized.V', Forward_propagation.cpp:25) on port 'gmem' (Forward_propagation.cpp:25) and bus read operation ('X_normalized.V', Forward_propagation.cpp:25) on port 'gmem' (Forward_propagation.cpp:25).&#xD;&#xA;Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=200-880.html" projectName="ANN" solutionName="solution1" date="2022-07-25T15:07:46.628+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-880] The II Violation in module 'Forward_propagation' (function 'Forward_propagation'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between bus read operation ('X_normalized.V', Forward_propagation.cpp:25) on port 'gmem' (Forward_propagation.cpp:25) and bus read operation ('X_normalized.V', Forward_propagation.cpp:25) on port 'gmem' (Forward_propagation.cpp:25).&#xD;&#xA;Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=200-880.html" projectName="ANN" solutionName="solution1" date="2022-07-25T15:07:46.440+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-880] The II Violation in module 'Forward_propagation' (function 'Forward_propagation'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between bus read operation ('X_normalized.V', Forward_propagation.cpp:25) on port 'gmem' (Forward_propagation.cpp:25) and bus read operation ('X_normalized.V', Forward_propagation.cpp:25) on port 'gmem' (Forward_propagation.cpp:25).&#xD;&#xA;Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=200-880.html" projectName="ANN" solutionName="solution1" date="2022-07-25T15:07:45.745+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-880] The II Violation in module 'Forward_propagation' (function 'Forward_propagation'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between bus read operation ('X_normalized.V', Forward_propagation.cpp:25) on port 'gmem' (Forward_propagation.cpp:25) and bus read operation ('X_normalized.V', Forward_propagation.cpp:25) on port 'gmem' (Forward_propagation.cpp:25).&#xD;&#xA;Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=200-880.html" projectName="ANN" solutionName="solution1" date="2022-07-25T15:07:45.691+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-880] The II Violation in module 'Forward_propagation' (function 'Forward_propagation'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between bus read operation ('X_normalized.V', Forward_propagation.cpp:25) on port 'gmem' (Forward_propagation.cpp:25) and bus read operation ('X_normalized.V', Forward_propagation.cpp:25) on port 'gmem' (Forward_propagation.cpp:25).&#xD;&#xA;Resolution: For help on HLS 200-880 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.1;t=hls+guidance;d=200-880.html" projectName="ANN" solutionName="solution1" date="2022-07-25T15:07:45.644+0200" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="WARNING: Index of bit vector (128) out of range (128).&#xD;&#xA;&#xD;&#xA;Assertion failed!&#xD;&#xA;&#xD;&#xA;Program: C:\Users\iyadb\Desktop\ANN_HLS\ANN\solution1\csim\build\csim.exe&#xD;&#xA;File: C:/Xilinx/Vitis_HLS/2022.1/include/etc/ap_private.h, Line 3880&#xD;&#xA;&#xD;&#xA;Expression: i &lt; _AP_W &amp;&amp; &quot;Attempting to read bit beyond MSB&quot;&#xD;&#xA;@E Simulation failed: Function 'main' returns nonzero value '3'." projectName="ANN" solutionName="solution1" date="2022-07-25T15:28:59.389+0200" type="Warning"/>
+        <logs message="WARNING: Higher bound (0) or lower bound (128) out of range (128)." projectName="ANN" solutionName="solution1" date="2022-07-25T15:28:59.377+0200" type="Warning"/>
+        <logs message="WARNING: The bits selected will be returned in reverse order." projectName="ANN" solutionName="solution1" date="2022-07-25T15:28:59.371+0200" type="Warning"/>
+        <logs message="WARNING: Higher bound(0) or lower(128) bound out of range." projectName="ANN" solutionName="solution1" date="2022-07-25T15:28:59.366+0200" type="Warning"/>
+        <logs message="WARNING: Out of bounds in range()" projectName="ANN" solutionName="solution1" date="2022-07-25T15:28:59.360+0200" type="Warning"/>
+      </csimLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

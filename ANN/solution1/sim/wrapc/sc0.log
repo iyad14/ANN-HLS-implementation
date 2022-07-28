@@ -1,0 +1,6 @@
+   Build using "C:/Xilinx/Vitis_HLS/2022.1/tps/win64/msys64/mingw64/bin/g++"
+   Compiling apatb_Forward_propagation.cpp
+   Compiling main.cpp_pre.cpp.tb.cpp
+   Compiling Forward_propagation.cpp_pre.cpp.tb.cpp
+   Compiling apatb_Forward_propagation_ir.ll
+   Generating cosim.tv.exe

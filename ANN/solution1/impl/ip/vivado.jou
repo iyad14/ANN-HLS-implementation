@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Jul 25 15:09:34 2022
+# Process ID: 21864
+# Current directory: C:/Users/iyadb/Desktop/ANN_HLS/ANN/solution1/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: C:/Users/iyadb/Desktop/ANN_HLS/ANN/solution1/impl/ip/vivado.log
+# Journal file: C:/Users/iyadb/Desktop/ANN_HLS/ANN/solution1/impl/ip\vivado.jou
+# Running On: DESKTOP-EL5BPPF, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 17048 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

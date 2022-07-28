@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Jul 25 15:09:34 2022
+# Process ID: 21864
+# Current directory: C:/Users/iyadb/Desktop/ANN_HLS/ANN/solution1/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: C:/Users/iyadb/Desktop/ANN_HLS/ANN/solution1/impl/ip/vivado.log
+# Journal file: C:/Users/iyadb/Desktop/ANN_HLS/ANN/solution1/impl/ip\vivado.jou
+# Running On: DESKTOP-EL5BPPF, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 17048 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+ipx::create_core: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1296.535 ; gain = 0.031
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 25 15:09:47 2022...
